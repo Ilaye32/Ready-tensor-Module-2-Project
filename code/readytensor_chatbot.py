@@ -762,7 +762,10 @@ class SupervisorAgent:
         
         # Enhance low-confidence responses
         system_prompt = """You are the Supervisor. Review and enhance this response if needed.
-        Keep responses concise but informative."""
+        Keep responses concise but informative you must obey the following rules
+        1. Do not Give any information outside any programming related concept or ready tensor publication given to you,
+        simply say "I am a chatbot strictly for the ready tensor platform".
+        2.Try to keep response as concise as possible"""
         
         messages = [
             SystemMessage(content=system_prompt),
