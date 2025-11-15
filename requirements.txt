@@ -1,12 +1,50 @@
+streamlit==1.39.0
+
+# Environment Management
 python-dotenv==1.0.1
-fastapi==0.115.0
-uvicorn==0.30.1
-pydantic==2.8.2
-httpx==0.27.0
-langchain==1.0.4
-langchain-core==1.0.3
-langchain-community==0.4.1
-langchain-groq==1.0.0
-langgraph==1.0.2
+
+# LangChain Core - Compatible versions
+langchain-core
+langchain==0.3.7
+langchain-text-splitters==0.3.2
+langchain-community
+
+
+# LLM Providers
+langchain-openai
+langchain-groq
+langchain-google-genai
+
+# Vector Database
+chromadb==0.5.20
+
+# Embedding Models
+sentence-transformers==3.3.1
+
+# Core Dependencies (these will be auto-installed but listed for clarity)
+pydantic==2.10.3
+pydantic-core==2.27.1
+tiktoken==0.8.0
+numpy==1.26.4
+requests==2.32.3
+typing-extensions==4.12.2
+
+# Database
+SQLAlchemy
+
+# Async support
+aiohttp
+greenlet
+
+# Transformers (for sentence-transformers)
+transformers
+torch
+huggingface-hub
+
+# Additional utilities
+tenacity
+dataclasses-json
+jsonpatch
 beautifulsoup4==4.14.2
 tavily-python==0.7.12 
+
