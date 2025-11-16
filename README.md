@@ -8,12 +8,12 @@ Basic knowledge of LangChain and LangGraph
 
 Setup
 Clone the repository
-
+----
 bash
 git clone https://github.com/Ilaye32/Ready-tensor-Module-2-Project.git
 cd Ready-tensor-Module-2-Project
 Install dependencies
-
+----
 bash
 pip install -r requirements.txt
 Configure environment
