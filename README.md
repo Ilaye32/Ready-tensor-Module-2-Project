@@ -22,7 +22,7 @@ A multi-agent chatbot system built with LangGraph that provides intelligent assi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/readytensor-chatbot.git
+git clone https://github.com/Ilaye32/Ready-tensor-Module-2-Project.git
 cd readytensor-chatbot
 ```
 
