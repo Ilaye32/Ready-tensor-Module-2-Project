@@ -12,6 +12,8 @@ import json
 from tavily import TavilyClient
 import re
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # ============================================================================
